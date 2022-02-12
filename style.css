@@ -1,0 +1,9 @@
+.pzl-card{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+.pzl-card img{
+    height: 100%;
+    object-fit: cover;
+}
