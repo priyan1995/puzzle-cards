@@ -103,7 +103,7 @@
     transform: translateY(0);
 }
 .pzl-card:nth-child(3){
-    transform: translateY(-34px)
+    transform: translateY(-34px);
     z-index: 1;
 }
 
