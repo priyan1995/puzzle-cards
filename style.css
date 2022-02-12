@@ -1,9 +1,52 @@
 .pzl-card{
     width: 400px;
-    height: 400px;
+    height: 300px;
     display: inline-block;
+    position: relative;
 }
 .pzl-card img{
     height: 100%;
     object-fit: cover;
+}
+
+.illips{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    z-index: 999;    
+    transform: translate(0%, -50%);
+    top: 50%;    
+    background-size: cover;
+}
+
+/* ============ */
+.right-illips-1-right{   
+    right: -6px;
+    clip-path: ellipse(10% 27% at 92% 51%);
+    background-image: url(img/2.jpg);
+    background-position: -651% 100%;
+}
+
+.pzl-card:nth-child(2){
+    z-index: -1;
+    position: relative;
+    margin-left: -50px;
+}
+
+/* ============ */
+.right-illips-3-right{   
+    right: -75px;
+    clip-path: ellipse(10% 27% at 89% 51%);
+    background-image: url(img/3.jpg);
+    background-position: 109% 100%;
+}
+
+.pzl-card:nth-child(3){
+    margin-left: -21px;
+}
+
+.pzl-card:nth-child(3) img{
+    object-fit: cover;
+    object-position: -34%;
 }
