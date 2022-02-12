@@ -68,6 +68,8 @@
 }
 .pzl-card:nth-child(5){
     margin-left: -5px;
+    transform: translateY(-34px);
+    z-index: 1;
 }
 
 .pzl-card:nth-child(5) img{
@@ -76,12 +78,19 @@
     object-position: top;
 }
 
+
+
 /* item 4 right */
 .right-illips-4-right{
     right: -75px;
     clip-path: ellipse(10% 27% at 89% 51%);
     background-image: url(img/4.jpg);
     background-position: 109% 100%;
+}
+
+.pzl-card:nth-child(4){
+    transform: translateY(-34px);
+    z-index: 111;
 }
 
 /* ======== 3 bottom */
@@ -98,7 +107,18 @@
     z-index: 1;
 }
 
+/* image 1  top */
 
+.right-illips-1-top{
+    top: -69px;
+    clip-path: ellipse(21% 12% at 50% 63%);
+    background-image: url(img/1.jpg);
+    background-position: 100% 436px;
+}
+
+.pzl-card:nth-child(1) img{
+    object-position: 100% -32px;
+}
 
 /* ============ responsive ========== */
 
