@@ -1,3 +1,9 @@
+.puzzle-card-sec{
+    margin-top: 150px;
+}
+
+
+
 .pzl-card{
     width: 400px;
     height: 300px;
@@ -34,19 +40,71 @@
     margin-left: -50px;
 }
 
-/* ============ */
+/* ====== 3 box ====== */
 .right-illips-3-right{   
     right: -75px;
-    clip-path: ellipse(10% 27% at 89% 51%);
+    clip-path: ellipse(10% 27% at 89% 57%);
     background-image: url(img/3.jpg);
-    background-position: 109% 100%;
+    background-position: 110% 359px;
 }
 
+
 .pzl-card:nth-child(3){
-    margin-left: -21px;
+    margin-left: -22px;
 }
 
 .pzl-card:nth-child(3) img{
     object-fit: cover;
-    object-position: -34%;
+    object-position: -34% 56px;
+}
+
+/* ======== 5 box */
+
+.right-illips-5-top{
+    top: -69px;
+    clip-path: ellipse(21% 12% at 50% 63%);
+    background-image: url(img/5.jpg);
+    background-position: 100% 448px;
+}
+.pzl-card:nth-child(5){
+    margin-left: -5px;
+}
+
+.pzl-card:nth-child(5) img{
+    z-index: -111;
+    position: relative;
+    object-position: top;
+}
+
+/* item 4 right */
+.right-illips-4-right{
+    right: -75px;
+    clip-path: ellipse(10% 27% at 89% 51%);
+    background-image: url(img/4.jpg);
+    background-position: 109% 100%;
+}
+
+/* ======== 3 bottom */
+
+.right-illips-3-bottom{
+    bottom: 0;
+    clip-path: ellipse(21% 12% at 51% 56%);
+    background-image: url(img/3.jpg);
+    background-position: -35% -90px;
+    transform: translateY(0);
+}
+.pzl-card:nth-child(3){
+    transform: translateY(0px);
+    z-index: 1;
+}
+
+
+
+/* ============ responsive ========== */
+
+@media (max-width:1400px){
+    .pzl-card {
+        width: 390px;
+        height: 290px;
+    }
 }
